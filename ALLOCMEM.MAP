@@ -1,0 +1,74 @@
+
+ ALLOCMEM
+
+ Start         Length     Name                   Class
+ 0001:00000000 000000164H TEXT32                 CODE 32-bit
+ 0002:00000000 000000004H SET1___CTOR_LIST__     CODE 32-bit
+ 0002:00000004 000000000H SET2___CTOR_LIST__     CODE 32-bit
+ 0002:00000004 000000004H SET3___CTOR_LIST__     CODE 32-bit
+ 0003:00000000 000000004H SET1___DTOR_LIST__     CODE 32-bit
+ 0003:00000004 000000000H SET2___DTOR_LIST__     CODE 32-bit
+ 0003:00000004 000000004H SET3___DTOR_LIST__     CODE 32-bit
+ 0004:00000000 000000088H DATA32                 DATA 32-bit
+ 0004:00000088 000000000H BSS32                  BSS 32-bit
+ 0005:00000000 000080000H STACK                  STACK 32-bit
+
+ Origin   Group
+ 0002:0   GROUP___CTOR_LIST__
+ 0003:0   GROUP___DTOR_LIST__
+ 0000:0   FLAT
+ 0004:0   DGROUP
+
+  Address         Publics by Name
+
+ 0000:00000000  Imp  atoi                 (EMXLIBC.705)
+ 0000:00000000  Imp  DosAllocMem          (doscalls.299)
+ 0000:00000000  Imp  DosQuerySysInfo      (doscalls.348)
+ 0000:00000000  Imp  DosSleep             (doscalls.229)
+ 0000:00000000  Imp  emx_init             (emx.1)
+ 0000:00000000  Imp  emx_syscall          (emx.2)
+ 0000:00000000  Imp  exit                 (EMXLIBC.712)
+ 0001:00000094       main
+ 0000:00000000  Imp  printf               (EMXLIBC.545)
+ 0000:00000000  Imp  puts                 (EMXLIBC.546)
+ 0004:00000000       _data
+ 0000:00000000  Imp  _entry1              (EMXLIBC.815)
+ 0000:00000000  Imp  _entry2              (EMXLIBC.816)
+ 0004:00000018       _heap_base
+ 0004:00000020       _heap_brk
+ 0004:0000001C       _heap_end
+ 0001:00000012       _init
+ 0000:00000000  Imp  _startup             (EMXLIBC.793)
+ 0001:00000000       _text
+ 0002:00000000       __CTOR_LIST__
+ 0003:00000000       __DTOR_LIST__
+ 0000:00000000  Imp  __main               (EMXLIBC.1323)
+ 0001:0000000C       __syscall
+
+  Address         Publics by Value
+
+ 0000:00000000  Imp  DosAllocMem          (doscalls.299)
+ 0000:00000000  Imp  emx_syscall          (emx.2)
+ 0000:00000000  Imp  emx_init             (emx.1)
+ 0000:00000000  Imp  _entry1              (EMXLIBC.815)
+ 0000:00000000  Imp  DosSleep             (doscalls.229)
+ 0000:00000000  Imp  exit                 (EMXLIBC.712)
+ 0000:00000000  Imp  atoi                 (EMXLIBC.705)
+ 0000:00000000  Imp  puts                 (EMXLIBC.546)
+ 0000:00000000  Imp  _startup             (EMXLIBC.793)
+ 0000:00000000  Imp  DosQuerySysInfo      (doscalls.348)
+ 0000:00000000  Imp  _entry2              (EMXLIBC.816)
+ 0000:00000000  Imp  printf               (EMXLIBC.545)
+ 0000:00000000  Imp  __main               (EMXLIBC.1323)
+ 0001:00000000       _text
+ 0001:0000000C       __syscall
+ 0001:00000012       _init
+ 0001:00000094       main
+ 0002:00000000       __CTOR_LIST__
+ 0003:00000000       __DTOR_LIST__
+ 0004:00000000       _data
+ 0004:00000018       _heap_base
+ 0004:0000001C       _heap_end
+ 0004:00000020       _heap_brk
+
+Program entry point at 0001:00000000
